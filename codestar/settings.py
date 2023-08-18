@@ -33,7 +33,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'fullstack-blog-walkthrough.herokuapp.com', 
     'localhost',
-    'https://fullstack-blog-walkthrough-c3724c91b76c.herokuapp.com']
+    'fullstack-blog-walkthrough-c3724c91b76c.herokuapp.com']
 
 
 # Application definition
