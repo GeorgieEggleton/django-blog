@@ -33,7 +33,9 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'fullstack-blog-walkthrough.herokuapp.com', 
     'localhost',
-    'fullstack-blog-walkthrough-c3724c91b76c.herokuapp.com']
+    'fullstack-blog-walkthrough-c3724c91b76c.herokuapp.com',
+    '8000-georgieeggle-djangoblog-ha0dih88nnr.ws-eu104.gitpod.io']
+    
 
 
 # Application definition
@@ -48,6 +50,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'cloudinary',
     'blog',
+    'django_summernote',
 ]
 
 MIDDLEWARE = [
