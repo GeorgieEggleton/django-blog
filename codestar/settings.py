@@ -30,7 +30,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fullstack-blog-walkthrough.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = [
+    'fullstack-blog-walkthrough.herokuapp.com', 
+    'localhost',
+    'https://fullstack-blog-walkthrough-c3724c91b76c.herokuapp.com']
 
 
 # Application definition
